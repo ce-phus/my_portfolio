@@ -1,0 +1,101 @@
+HOME PAGE: 
+
+- Exploring a World of Design Artistry and Innovation 
+-Welcome to my portfolio! Here, you'll witness the culmination of countless sleepless nights dedicated to weaving together unique ideas and crafting designs that not only catch the eye but also leave a lasting impression. I believe that creativity knows no boundaries, and in my quest to push those limits, I've poured my heart and soul into every project. Each pixel, every stroke of the brush, and every line of code reflects my unwavering commitment to delivering innovative solutions. Join me on this journey as we explore a world where imagination thrives, and creativity knows no bounds.
+
+--------------------------------------------------------------
+
+ABOUT PAGE:
+
+-Who Am I 
+- I'm Peter Nakitare Koinange , a Full-Stack Developer with a flair for innovation. Alongside my Linux expertise, I thrive on crafting seamless digital experiences, blending design and functionality. Beyond coding, I'm a tech enthusiast, constantly exploring the latest trends. Join me in the journey where technology meets creativity, and let's shape the future together, one line of code at a time..
+
+- I've embarked on an exciting journey as a Full-Stack Developer, with a strong foundation in Linux and a passion for innovation. Simultaneously. My work revolves around creating user-centric digital solutions that seamlessly blend form and function. When I'm not coding, I'm an avid tech explorer, always seeking the next big thing. Join me in this adventure where technology, creativity, and learning converge, and together, we'll shape the digital landscape of tomorrow.
+
+--------------------------------------------------------------
+
+EXPERIENCE: 
+
+FreeLancer - Fiverr, Upwork and PeoplePerHour
+2020-Present
+
+--------------------------------------------------------------
+
+EDUCATION:
+
+Bachelor of Science in Telecommunication And Information Engineering - Dedan Kimathi University Of TechnologY
+2018-Present
+
+--------------------------------------------------------------
+
+PROJECTS PAGE:
+
+- Project Highlights
+
+Predictive Maintainance of Turbo Engines Using LSTM
+
+An Artificial Intelligence project app using django framework that uses Recurrent neural network to predict the remaining useful life of turbo engines using the LSTM model.
+
+Django Blog app
+A Django blog application that allows users to create posts, comment on other people’s posts, like or dislike them, etc., using Python
+
+Django E-commerce Website
+A professional E-commerce Website with the admin panel, where users can register and create accounts and make contact.
+--------------------------------------------------------------
+
+SERVICES PAGE:
+
+- Quality Services
+
+- Package 1
+
+Attractive Design
+Responsive Design
+Static Website
+5 Sections Max
+One Page (Landing Page)
+Delivered in 24 hrs
+
+- Package 2
+
+Attractive Design
+Responsive Design
+Static Website
+4 Pages Max
+Delivered in 3 Days
+
+- Package 3
+
+Attractive Design
+Responsive Design
+Basic Ecommerce Website
+Payment Integrations
+5 pages max
+Delivered in 1 Week
+
+- Package 4
+
+Attractive Design
+Responsive Design
+Professional Ecommerce Site
+Payment Integrations
+SEO
+Admin Training
+Delivered in 10 Days
+
+- Package 5
+Attractive Design
+Responsive Design
+Custom Dynamic Website
+Admin Panel
+Admin Training
+Delivered in 17 Days
+
+- Package 6
+Attractive Design
+Responsive Design
+Custom Ecommerce Website
+Admin Panel
+Admin Training
+Delivered in 30 Days
+
