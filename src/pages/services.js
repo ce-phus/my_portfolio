@@ -5,11 +5,12 @@ import Layout from '@/components/Layout'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
 import ContactForm from '@/components/ContactForm'
-import {  WhatsappIcon,TelephoneIcon, MailIcon } from '@/components/Icons'
 // import Link from 'next/link'
 import { Link ,Element } from 'react-scroll'
-
-
+import Image from 'next/image'
+import Whatsapp from '../../public/images/profile/whatsapp-business-icon.png'
+import mail from '../../public/images/profile/email-icon.png'
+import phone from '../../public/images/profile/24-hours-call-icon.png'
 
 
 
@@ -110,19 +111,41 @@ const services = () => {
                 Get In <span className='text-accent'>Touch.</span>
               </h2>
             <div className='mt-5  grid grid-cols-2 dark:text-light'>
-              <div className='mr-7'>
+              <div className='mr-7 md:col-span-2'>
                 <h3 className='font-bold text-dark/75 text-3xl dark:text-light '>DON'T BE SHY <span className='text-accent'>!</span></h3>
                 <p className='font-medium mt-4'>
                   Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.  
                 </p>
-                <ol className='text-dark'>
-                  <li><WhatsappIcon/></li>
-                  <li><TelephoneIcon/></li>
-                  <li><MailIcon/></li>
-                </ol>
+                <div className='mt-5 flex flex-row md:py-10'>
+
+                  <motion.a href='https://wa.link/5zwqtu' target={'_blank'}
+                  whileHover={{y:-2}}
+                  whileTap={{scale:0.9}}
+                  className='w-6 mr-3 cursor-pointer'
+                  >
+                  <Image src={Whatsapp} width={30} height={15} alt=''/>
+                  </motion.a>
+                <motion.a href='mailto:cephusluke@gmail.com' target={'_blank'}
+                  whileHover={{y:-2}}
+                  whileTap={{scale:0.9}}
+                  className='w-6 mx-7 cursor-pointer border-2 border-transparent border-solid dark:border-accent dark:bg-white rounded-[10rem] text-center '
+                  >
+                  <Image src={mail} width={50} height={50} alt=''/>
+                  </motion.a>
+
+                  <motion.a href='tel:0112989429' target={'_blank'}
+                  whileHover={{y:-2}}
+                  whileTap={{scale:0.9}}
+                  className='w-6 ml-7 cursor-pointer border-2 border-solid border-transparent dark:border-accent dark:bg-light rounded-[2rem] '
+                  >
+                  <Image src={phone} width={30} height={15} alt=''/>
+                  </motion.a>
+                </div>
+                    
+                  
               </div>
               <section id='/contact'>
-              <div className='md:col-span-2'>
+              <div className=''>
              <Element name='ContactForm'>
                <ContactForm/>
               </Element> 
