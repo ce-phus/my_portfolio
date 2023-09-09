@@ -125,7 +125,7 @@ const services = () => {
                   >
                   <Image src={Whatsapp} width={30} height={15} alt=''/>
                   </motion.a>
-                <motion.a href='mailto:cephusluke@gmail.com' target={'_blank'}
+                <motion.a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhpfsSJfVRdjtSxDgkdjhMmLNMlgkPgJPjJXKjVcTxNDZfRjGHWccVmXhwlcJrCctZmLkB' target={'_blank'}
                   whileHover={{y:-2}}
                   whileTap={{scale:0.9}}
                   className='w-6 mx-7 cursor-pointer border-2 border-transparent border-solid dark:border-accent dark:bg-white rounded-[10rem] text-center '
