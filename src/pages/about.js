@@ -114,7 +114,7 @@ const about = () => {
                 transition={{duration:0.5, type:'spring'}}
                 className='font-bold'>
                     Bachelor of Science in Telecommunication And Information Engineering - <span className='text-accent/70'>Dedan Kimathi University Of Technology</span>
-                    <div className='text-right flex font-medium'>2018-Present</div>
+                    <div className='text-right flex font-medium'>2019-Present</div>
                 </motion.div>
             </div>
 
