@@ -115,7 +115,11 @@ const services = () => {
                 <h3 className='font-bold text-dark/75 text-3xl dark:text-light '>DON'T BE SHY <span className='text-accent'>!</span></h3>
                 <p className='font-medium mt-4'>
                   Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.  
-                </p>
+                </p><div className=''>
+            <div className=''>
+              <h1>Get In Touch</h1>
+            </div>
+          </div>
                 <div className='mt-5 flex flex-row md:py-10'>
 
                   <motion.a href='https://wa.link/5zwqtu' target={'_blank'}
