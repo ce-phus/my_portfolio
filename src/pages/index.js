@@ -8,6 +8,7 @@ import { fadeIn } from '../../variants'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import bulb from "../../public/images/profile/bulb.png"
+import HireMe from '@/components/HireMe'
 
 
 export default function Home() {
@@ -56,6 +57,8 @@ export default function Home() {
           </div>
 
         </Layout>
+
+        <HireMe/>
 
         <div className='absolute right-8 bottom-0 inline-block w-28 animate-pulse lg:hidden'>
           <Image src={bulb} alt='' className='w-full h-auto'/>

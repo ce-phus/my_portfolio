@@ -1,54 +1,48 @@
-import { useEffect, useState } from 'react';
+import React from 'react'
+import {motion} from "framer-motion"
 
-const Skill = ({ skillName, percentage }) => {
-  const [offset, setOffset] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (offset < percentage) {
-        setOffset(offset + 1);
-      }
-    }, 20); // Adjust animation speed as needed
+const Skill = ({name, x, y}) => {
+    return(
+        <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold'
+            whileHover={{scale:1.05}}
+            initial={{x:0,y:0}}
+            whileInView={{x:x ,y:y}}
+            transition={{duration:1.5}}
+            viewport={{once:true}}
+            >
+            {name}
+            </motion.div>
+    )
+}
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, [offset, percentage]);
-
+const Skills = () => {
   return (
-    <div className=" flex flex-col justify-between dark:text-light">
-      <p className="text-xl font-semibold mb-2">{skillName}</p>
-      <div className='relative mx-5 '>
-      <svg
-        width="100"
-        height="100"
-        className="relative"
-      >
-        <circle
-          cx="50%"
-          cy="50%"
-          r="40%"
-          fill="transparent"
-          strokeWidth="8"
-          stroke="#ee7600"
-          strokeDasharray="251.2"
-          strokeDashoffset={251.2 - (251.2 * offset) / 100}
-        />
-        <text
-            x="50%"
-            y="50%"
-            textAnchor="middle"
-            dominantBaseline="middle"
-            fontSize="20"
-            fill="#4A90E2"
-          >
-            {percentage}%
-          </text>
-      </svg>
-      </div>
-      <p className="font-medium mt-5">{percentage}%</p>
-    </div>
-  );
-};
+    <>
+    <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32 '>Skills</h2 >
+        <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark dark:text-dark dark:bg-light lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] lg:bg-circularLightLg lg:dark:bg-circularDarkLg 
+        md:bg-circularLightMd md:dark:bg-circularDarkMd
+        sm:bg-circularLightSm sm:dark:bg-circularDarkSm'>
+            <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2 '
+            whileHover={{scale:1.05}}
+            >
+            Web
+            </motion.div>
 
-export default Skill;
+            <Skill name='HTML' x='5vw' y='10vw'/>
+            <Skill name='PYTHON' x='-20vw' y='-6vw'/>
+            <Skill name='DJANGO' x='-30vw' y='15vw'/>
+            <Skill name='Postgresql' x='-30vw' y='-20vw'/> 
+            <Skill name='CSS' x='20vw' y='-6vw'/> 
+            <Skill name='JAVASCRIPT' x='30vw' y='15vw'/> 
+            <Skill name='REACT' x='30vw' y='-20vw'/> 
+            <Skill name='Nextjs13' x='5vw' y='25vw'/> 
+            <Skill name='DjangoRest' x='5vw' y='-25vw'/> 
+
+        </div>
+    </>
+    
+  )
+}
+
+export default Skills

@@ -10,6 +10,7 @@ import Image from 'next/image'
 import project1 from "../../public/images/projects/Project1.png"
 import project3 from "../../public/images/projects/Project3.png"
 import project2 from "../../public/images/projects/Project2.png"
+import project4 from "../../public/images/projects/project4.jpeg"
 
 const FramerImage=motion(Image); 
 
@@ -73,6 +74,7 @@ const Project = ({title, type, img,link, github}) =>{
 }
 
 
+
 const projects = () => {
   return (
     <>
@@ -92,7 +94,7 @@ const projects = () => {
           >
             Project <span className='text-accent'>Highlights.</span> 
           </motion.h1>
-          <div className='grid grid-cols-4 gap-24 gap-y-32 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 mt-10'>
+          <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 mt-10'>
           <div className='col-span-12'>
             <FeaturedProject
             title="Predictive Maintainance of Turbo Engines Using LSTM"
@@ -124,6 +126,17 @@ const projects = () => {
           github="https://github.com/ce-phus"
           type="Featured Project"
                     />
+          </div>
+
+          <div className='col-span-12'>
+            <FeaturedProject
+            title="FullStack E-commerce Web Application  using Nextjs, Redux and Django with DjangoRestFramwework."
+            img={project4}
+            summary=" A collection of projects that I have worked on, including open source contributions and personal side projects."
+            link='https://github.com/ce-phus/AI'
+            github="https://github.com/ce-phus/AIdeployment"
+            type="Featured Project"
+            />
           </div>
           </div>
           

@@ -135,14 +135,7 @@ const about = () => {
                 <h2 className='font-bold text-center text-5xl mb-10 dark:text-light'>
                     My Skills
                 </h2>
-                <div className="container mx-auto p-4">
-      
-      <div className="grid grid-cols-2 gap-4">
-        {skills.map((skill, index) => (
-          <Skill key={index} skillName={skill.name} percentage={skill.percentage} />
-        ))}
-      </div>
-    </div>
+                <Skill/>
   
 
             </div>
