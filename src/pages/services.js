@@ -149,7 +149,7 @@ const services = () => {
                   
               </div>
               <section id='/contact'>
-              <div className=''>
+              <div className='md:col-span-2'>
              <Element name='ContactForm'>
                <ContactForm/>
               </Element> 
