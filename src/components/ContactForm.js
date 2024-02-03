@@ -42,7 +42,7 @@ const ContactForm = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="shadow appearance-none border rounded w-[600px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-[600px] sm:w-[450px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           required
         />
       </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
           name="contact"
           value={formData.contact} 
           onChange={handleChange}
-          className="shadow appearance-none border rounded w-[600px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-[600px] sm:w-[450px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           required
         />
       </div>
@@ -70,7 +70,7 @@ const ContactForm = () => {
           name="email"
           value={formData.email} 
           onChange={handleChange}
-          className="shadow appearance-none border rounded w-[600px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-[600px] sm:w-[450px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           required
         />
       </div>
@@ -83,7 +83,7 @@ const ContactForm = () => {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          className="shadow appearance-none border rounded w-[600px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32"
+          className="shadow appearance-none border rounded w-[600px] sm:w-[450px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32"
           required
         />
       </div>

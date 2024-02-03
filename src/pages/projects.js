@@ -130,7 +130,7 @@ const projects = () => {
 
           <div className='col-span-12'>
             <FeaturedProject
-            title="FullStack E-commerce Web Application  using Nextjs, Redux and Django with DjangoRestFramwework."
+            title={`FullStack E-commerce Web Application using Nextjs, Redux and Django with DjangoRestFramwework.`}
             img={project4}
             summary=" A collection of projects that I have worked on, including open source contributions and personal side projects."
             link='https://github.com/ce-phus/AI'
